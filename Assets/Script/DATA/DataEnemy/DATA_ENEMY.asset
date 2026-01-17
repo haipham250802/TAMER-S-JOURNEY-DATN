@@ -1,0 +1,2297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a76d2c20b1e64488eff1ae5b491d7, type: 3}
+  m_Name: DATA_ENEMY
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 11400000, guid: 2ef3d8d6b247abd44b92326f57cad1c0, type: 2}
+  Avatar: {fileID: 21300000, guid: c3307877d5684f745b2344b0d268a508, type: 3}
+  enemies:
+  - Avatar: {fileID: 21300000, guid: 9caab7c186fabaa4bb6df0923feaa394, type: 3}
+    ICON: {fileID: 11400000, guid: afbf75ebac4f62a48bcfd1bdc253b969, type: 2}
+    Type: 0
+    RangeAttack: 0
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 2
+    HP: 5
+    Rarity: 1
+    EnocunterATK: 2
+    EncounterHP: 5
+    CatchChance: 99
+    CombineCost: 20
+    Offset: {x: -1, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: aada53881cf5aac4e93da950220d17d1, type: 3}
+    ICON: {fileID: 11400000, guid: 39674108ccdebbf47bff6644c4fe44e4, type: 2}
+    Type: 1
+    RangeAttack: 2
+    TimeEffect: 0.95
+    ID: 0
+    Damage: 5
+    HP: 5
+    Rarity: 1
+    EnocunterATK: 5
+    EncounterHP: 5
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 3f796bcc811a990408fd7784ce43b3af, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 1600aa01c62d3b241850b03ca51f6bd9, type: 3}
+    ICON: {fileID: 11400000, guid: 1d67b0afcf43365469da586260ae9377, type: 2}
+    Type: 2
+    RangeAttack: 2
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 1
+    HP: 7
+    Rarity: 1
+    EnocunterATK: 1
+    EncounterHP: 7
+    CatchChance: 99
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c1207339b38d64943bd62043a813bc73, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 6f550d06251f3f94388bbf3cb37b2ffa, type: 3}
+    ICON: {fileID: 11400000, guid: 67970cdf3b3e25243aaf5b1d4d2ea1d8, type: 2}
+    Type: 3
+    RangeAttack: 0
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 5
+    HP: 9
+    Rarity: 1
+    EnocunterATK: 5
+    EncounterHP: 9
+    CatchChance: 99
+    CombineCost: 20
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bbb76f45c0c56214d914c1412e46979e, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 4
+    RangeAttack: 0
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 4
+    HP: 10
+    Rarity: 1
+    EnocunterATK: 4
+    EncounterHP: 10
+    CatchChance: 99
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 6a72e2d858c43c64eb497a381fab1d58, type: 3}
+    ICON: {fileID: 11400000, guid: 03dda4454360cc947b98a19ced6d477d, type: 2}
+    Type: 5
+    RangeAttack: 0
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 1
+    HP: 10
+    Rarity: 1
+    EnocunterATK: 1
+    EncounterHP: 10
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: ac45963c2a9e5bc4cac5a77b91240bc0, type: 3}
+    ICON: {fileID: 11400000, guid: bbb1142dfbfb9674bbfd11038c7f579c, type: 2}
+    Type: 6
+    RangeAttack: 0
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 5
+    HP: 10
+    Rarity: 1
+    EnocunterATK: 5
+    EncounterHP: 10
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: -3, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 67faf3ca81a3bac4783e58f2e0956735, type: 3}
+    ICON: {fileID: 11400000, guid: e6d736515f766fc47bd0216af94b3353, type: 2}
+    Type: 7
+    RangeAttack: 0
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 1
+    HP: 10
+    Rarity: 1
+    EnocunterATK: 1
+    EncounterHP: 10
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: b21ed0cd6dec5fd4091a19fc2e1c3496, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 4efe33c9efbf4e24fb05dcf042327968, type: 3}
+    ICON: {fileID: 11400000, guid: d50161ce8e5fe01409ae3e8fd329caeb, type: 2}
+    Type: 8
+    RangeAttack: 1
+    TimeEffect: 0
+    ID: 0
+    Damage: 5
+    HP: 11
+    Rarity: 1
+    EnocunterATK: 5
+    EncounterHP: 11
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 447af043b2950ec45b8040a469d713a2, type: 3}
+    ICON: {fileID: 11400000, guid: bf075e6c4200b354dba90f8765c22c69, type: 2}
+    Type: 9
+    RangeAttack: 2
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 3
+    HP: 15
+    Rarity: 1
+    EnocunterATK: 3
+    EncounterHP: 15
+    CatchChance: 80
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 9b88ad22411610b41a933c89874ad005, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 5f9ec601399c9c54996cb9ddcae56de6, type: 3}
+    ICON: {fileID: 11400000, guid: e9cee45294e9b4540b6325d115446e30, type: 2}
+    Type: 10
+    RangeAttack: 0
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 2
+    HP: 75
+    Rarity: 1
+    EnocunterATK: 2
+    EncounterHP: 100
+    CatchChance: 35
+    CombineCost: 20
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 69aa10100970ab14f8276375d774b396, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.15
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 87cd62585e385604ea7b830117ceceaa, type: 3}
+    ICON: {fileID: 11400000, guid: 861e2cf70ecffb94c8e5c2b97affdcae, type: 2}
+    Type: 11
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 10
+    HP: 10
+    Rarity: 2
+    EnocunterATK: 10
+    EncounterHP: 10
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 0271db0e06d89574fb2b8a25603eca79, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.65
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 025f66c8f0fb2124abfa39decd215ab3, type: 3}
+    ICON: {fileID: 11400000, guid: 0132285666e2cf34faf3312f57a0c49b, type: 2}
+    Type: 12
+    RangeAttack: 0
+    TimeEffect: 0.4
+    ID: 0
+    Damage: 9
+    HP: 15
+    Rarity: 2
+    EnocunterATK: 9
+    EncounterHP: 15
+    CatchChance: 80
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 4aabd447f8018dd488155fe02fc60c06, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 80670b99d3eb6574ab6f94b225b2630c, type: 3}
+    ICON: {fileID: 11400000, guid: 92eaf11aa2c853a46974f0e3ea2e75cc, type: 2}
+    Type: 13
+    RangeAttack: 1
+    TimeEffect: 0.1
+    ID: 0
+    Damage: 10
+    HP: 15
+    Rarity: 2
+    EnocunterATK: 10
+    EncounterHP: 15
+    CatchChance: 80
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 3be23b21dd40d8545a051bed49c3aba5, type: 3}
+    ICON: {fileID: 11400000, guid: 8cde3537523e9894fbca679081b57a8e, type: 2}
+    Type: 14
+    RangeAttack: 1
+    TimeEffect: 0
+    ID: 0
+    Damage: 8
+    HP: 20
+    Rarity: 2
+    EnocunterATK: 8
+    EncounterHP: 20
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 757cc0d64afde0f49bb99981032d6f13, type: 3}
+    ICON: {fileID: 11400000, guid: a4e11afe0c3db634f804da8bb0ed5f27, type: 2}
+    Type: 15
+    RangeAttack: 2
+    TimeEffect: 0.6
+    ID: 0
+    Damage: 8
+    HP: 20
+    Rarity: 2
+    EnocunterATK: 8
+    EncounterHP: 20
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 9b88ad22411610b41a933c89874ad005, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 998b6ccbd8443b940890bb1e11ad53df, type: 3}
+    ICON: {fileID: 11400000, guid: 4e429da2d56e8404a9afdd161e3706e0, type: 2}
+    Type: 16
+    RangeAttack: 1
+    TimeEffect: 0
+    ID: 0
+    Damage: 5
+    HP: 20
+    Rarity: 2
+    EnocunterATK: 5
+    EncounterHP: 20
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 071d6590cc7682645a7a241230ffe485, type: 3}
+    ICON: {fileID: 11400000, guid: 9072db477de72ba4cb0e100558ff2457, type: 2}
+    Type: 17
+    RangeAttack: 2
+    TimeEffect: 0.35
+    ID: 0
+    Damage: 10
+    HP: 25
+    Rarity: 2
+    EnocunterATK: 10
+    EncounterHP: 25
+    CatchChance: 65
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: ea06ee80e63436a46946ea98aca345e9, type: 3}
+    ICON: {fileID: 11400000, guid: 31cd84987012e6f47a65d75ff8677a7c, type: 2}
+    Type: 18
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 3
+    HP: 30
+    Rarity: 2
+    EnocunterATK: 3
+    EncounterHP: 30
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 5a0be4480220a5046974ce6e3367d098, type: 3}
+    ICON: {fileID: 11400000, guid: 561e8576571ed6342b4d73d47f9ca975, type: 2}
+    Type: 19
+    RangeAttack: 2
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 5
+    HP: 30
+    Rarity: 2
+    EnocunterATK: 5
+    EncounterHP: 30
+    CatchChance: 70
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 3a847fe13a2b18c4091c9ae917d08fff, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 4f33fe01c146438458cddf6b238b348b, type: 3}
+    ICON: {fileID: 11400000, guid: b46dbe998a414f24ab6f637fc6e623dd, type: 2}
+    Type: 20
+    RangeAttack: 0
+    TimeEffect: 0.68
+    ID: 0
+    Damage: 5
+    HP: 55
+    Rarity: 2
+    EnocunterATK: 6
+    EncounterHP: 140
+    CatchChance: 30
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 58ee66bb26b57cb42b6b1e5a6d1b2826, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.68
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 5ec070d9a98342944a4b01ab0e376ff9, type: 3}
+    ICON: {fileID: 11400000, guid: 38d650908d4869449bd7d2494efdeb4e, type: 2}
+    Type: 21
+    RangeAttack: 0
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 5
+    HP: 40
+    Rarity: 2
+    EnocunterATK: 5
+    EncounterHP: 40
+    CatchChance: 65
+    CombineCost: 80
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 6051d001f0b13984bb6a04ac98d2c117, type: 3}
+    ICON: {fileID: 11400000, guid: fcbf1ebc2d9a7e34aa072355ca9ed0d7, type: 2}
+    Type: 22
+    RangeAttack: 0
+    TimeEffect: 0.35
+    ID: 0
+    Damage: 8
+    HP: 30
+    Rarity: 3
+    EnocunterATK: 8
+    EncounterHP: 30
+    CatchChance: 70
+    CombineCost: 150
+    Offset: {x: -1, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: fc341703630371e4597d8663fcd2c684, type: 3}
+    ICON: {fileID: 11400000, guid: ce6d025d33eb49f4c93a787c18149f79, type: 2}
+    Type: 23
+    RangeAttack: 0
+    TimeEffect: 0.32
+    ID: 0
+    Damage: 12
+    HP: 30
+    Rarity: 3
+    EnocunterATK: 12
+    EncounterHP: 30
+    CatchChance: 60
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 80db5c9c22a6f714e9f8025a1eccedb2, type: 3}
+    ICON: {fileID: 11400000, guid: d8c1778bd01b33e458a17a824e9128c8, type: 2}
+    Type: 24
+    RangeAttack: 0
+    TimeEffect: 0.35
+    ID: 0
+    Damage: 10
+    HP: 30
+    Rarity: 3
+    EnocunterATK: 10
+    EncounterHP: 30
+    CatchChance: 70
+    CombineCost: 150
+    Offset: {x: -1, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: a2224b2bbbb14784d845e774238cb676, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.6
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 152f8502491fb5c4fb20006a36c974f4, type: 3}
+    ICON: {fileID: 11400000, guid: fbeadfba57fe3a447b6c0fb9993cfde2, type: 2}
+    Type: 25
+    RangeAttack: 2
+    TimeEffect: 0.85
+    ID: 0
+    Damage: 10
+    HP: 35
+    Rarity: 3
+    EnocunterATK: 10
+    EncounterHP: 35
+    CatchChance: 70
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: f84b7045f12d1e34c8fcd3e9a4415545, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c4f9ffd4454a1814486461f19f88df23, type: 3}
+    ICON: {fileID: 11400000, guid: 5e5507e0027ce24418b874cf94bf8b86, type: 2}
+    Type: 26
+    RangeAttack: 2
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 10
+    HP: 35
+    Rarity: 3
+    EnocunterATK: 10
+    EncounterHP: 35
+    CatchChance: 70
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: d0c7ca7e2b6c3ef4eb0368827484cde8, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.35
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bc6265e3e34877342b495f19d2aca4c5, type: 3}
+    ICON: {fileID: 11400000, guid: b15e856e129aee8449d7bc83101c96fd, type: 2}
+    Type: 27
+    RangeAttack: 0
+    TimeEffect: 0.6
+    ID: 0
+    Damage: 15
+    HP: 40
+    Rarity: 3
+    EnocunterATK: 15
+    EncounterHP: 40
+    CatchChance: 55
+    CombineCost: 150
+    Offset: {x: -1, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 58ee66bb26b57cb42b6b1e5a6d1b2826, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.75
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 595de51c66efffe48a93ee4b5e1bb20e, type: 3}
+    ICON: {fileID: 11400000, guid: e9733fccdd0cc3c4cb98e45c285c3d7a, type: 2}
+    Type: 28
+    RangeAttack: 2
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 15
+    HP: 40
+    Rarity: 3
+    EnocunterATK: 15
+    EncounterHP: 40
+    CatchChance: 60
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 32cead37a2e45ca498a1b534981be27d, type: 3}
+    ICON: {fileID: 11400000, guid: 2ef3d8d6b247abd44b92326f57cad1c0, type: 2}
+    Type: 29
+    RangeAttack: 2
+    TimeEffect: 0
+    ID: 0
+    Damage: 12
+    HP: 40
+    Rarity: 3
+    EnocunterATK: 12
+    EncounterHP: 40
+    CatchChance: 65
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c1207339b38d64943bd62043a813bc73, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 9f38269111f3d7c44b9c8bb7171c970a, type: 3}
+    ICON: {fileID: 11400000, guid: 3a753633eee2f8b42be81c3584f6e054, type: 2}
+    Type: 30
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 15
+    HP: 45
+    Rarity: 3
+    EnocunterATK: 15
+    EncounterHP: 45
+    CatchChance: 60
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: f3926067407285844baffbed808d72ec, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d40db8cda0ffe66489d5c249185b4bc8, type: 3}
+    ICON: {fileID: 11400000, guid: cdfde52f92c623e4593429465d3add14, type: 2}
+    Type: 31
+    RangeAttack: 1
+    TimeEffect: 0
+    ID: 0
+    Damage: 10
+    HP: 45
+    Rarity: 3
+    EnocunterATK: 10
+    EncounterHP: 45
+    CatchChance: 70
+    CombineCost: 150
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c0ddff70909b37d42b01d5a5287334a4, type: 3}
+    ICON: {fileID: 11400000, guid: 6c5d9f903b5dcec419cb9c615265f015, type: 2}
+    Type: 32
+    RangeAttack: 2
+    TimeEffect: 0.75
+    ID: 0
+    Damage: 13
+    HP: 50
+    Rarity: 3
+    EnocunterATK: 11
+    EncounterHP: 190
+    CatchChance: 25
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: f84b7045f12d1e34c8fcd3e9a4415545, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 4b9cbe4beafd9c94ca9701e65c9a2197, type: 3}
+    ICON: {fileID: 11400000, guid: bb0bdfc066f53dd44a0daacb8f97aa25, type: 2}
+    Type: 33
+    RangeAttack: 2
+    TimeEffect: 1.9
+    ID: 0
+    Damage: 20
+    HP: 45
+    Rarity: 4
+    EnocunterATK: 20
+    EncounterHP: 45
+    CatchChance: 55
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: f84b7045f12d1e34c8fcd3e9a4415545, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 2ce560e1bf296274184097a06ab4197d, type: 3}
+    ICON: {fileID: 11400000, guid: 6258e4bf7c854724788090d227e50f9e, type: 2}
+    Type: 34
+    RangeAttack: 2
+    TimeEffect: 1.75
+    ID: 0
+    Damage: 15
+    HP: 50
+    Rarity: 4
+    EnocunterATK: 15
+    EncounterHP: 50
+    CatchChance: 55
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: ab29f1af15d736448bb715cf19ff5413, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 616a9b33a75fb3f46a1ae96bb6249d33, type: 3}
+    ICON: {fileID: 11400000, guid: f07066e612c04464fa0f3d926201db19, type: 2}
+    Type: 35
+    RangeAttack: 0
+    TimeEffect: 0.4
+    ID: 0
+    Damage: 25
+    HP: 50
+    Rarity: 4
+    EnocunterATK: 25
+    EncounterHP: 50
+    CatchChance: 55
+    CombineCost: 300
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 73b24249fcde95f4590bd96d21b9cdb9, type: 3}
+    ICON: {fileID: 11400000, guid: 488d9327c7615604490a1a33eb637297, type: 2}
+    Type: 36
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 30
+    HP: 65
+    Rarity: 4
+    EnocunterATK: 19
+    EncounterHP: 280
+    CatchChance: 15
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 8e1e8fc2a3276e54890a8213e158fd83, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bd2316ce208d12a4f8cbec9b6d25ac91, type: 3}
+    ICON: {fileID: 11400000, guid: fa7e4fcc8b32aee47adfe4a7535a26cd, type: 2}
+    Type: 37
+    RangeAttack: 2
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 15
+    HP: 55
+    Rarity: 4
+    EnocunterATK: 15
+    EncounterHP: 55
+    CatchChance: 55
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c38ba27a47922f24da167fffd3351b8b, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 21fadd71b588ed646afdfc2d175024dc, type: 3}
+    ICON: {fileID: 11400000, guid: ea2c8a0a887d4b2449425f7ea7401f91, type: 2}
+    Type: 38
+    RangeAttack: 0
+    TimeEffect: 0.8
+    ID: 0
+    Damage: 25
+    HP: 55
+    Rarity: 4
+    EnocunterATK: 25
+    EncounterHP: 55
+    CatchChance: 45
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c3166709069e21f4e8417c3577e19a33, type: 3}
+    ICON: {fileID: 11400000, guid: e79884ae9428fed4694be37b343529d3, type: 2}
+    Type: 39
+    RangeAttack: 2
+    TimeEffect: 0.8
+    ID: 0
+    Damage: 20
+    HP: 55
+    Rarity: 4
+    EnocunterATK: 20
+    EncounterHP: 55
+    CatchChance: 50
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 0b9edd9d89187c844b76c47305e4fe44, type: 3}
+    ICON: {fileID: 11400000, guid: 73e2772f8698c8f43bb620b787dbba2d, type: 2}
+    Type: 40
+    RangeAttack: 2
+    TimeEffect: 1.3
+    ID: 0
+    Damage: 25
+    HP: 55
+    Rarity: 4
+    EnocunterATK: 25
+    EncounterHP: 55
+    CatchChance: 40
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 296818b03f2b77949967119e66c81019, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: fc9dd99e9a2a5c94c83767452acc870d, type: 3}
+    ICON: {fileID: 11400000, guid: 2c795f4da4b0e064e9f8beecdb9d4db5, type: 2}
+    Type: 41
+    RangeAttack: 2
+    TimeEffect: 1.2
+    ID: 0
+    Damage: 25
+    HP: 50
+    Rarity: 4
+    EnocunterATK: 25
+    EncounterHP: 50
+    CatchChance: 40
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 959a2ac99dcbbb9458f449d0e0ada6ef, type: 3}
+    ICON: {fileID: 11400000, guid: e58a43fa018c9b74081166ac4229d077, type: 2}
+    Type: 42
+    RangeAttack: 2
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 20
+    HP: 75
+    Rarity: 4
+    EnocunterATK: 20
+    EncounterHP: 75
+    CatchChance: 50
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 3f3eae8ef0136f041bba6ca2926977a1, type: 3}
+    ICON: {fileID: 11400000, guid: 712367636b981304d8b0dab409281350, type: 2}
+    Type: 43
+    RangeAttack: 2
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 15
+    HP: 85
+    Rarity: 4
+    EnocunterATK: 15
+    EncounterHP: 85
+    CatchChance: 50
+    CombineCost: 300
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d7c8a85a8228edf4889290ee8a744036, type: 3}
+    ICON: {fileID: 11400000, guid: 8111423b0846c9144b97be6e3ad02e8b, type: 2}
+    Type: 44
+    RangeAttack: 2
+    TimeEffect: 0.8
+    ID: 0
+    Damage: 45
+    HP: 65
+    Rarity: 5
+    EnocunterATK: 45
+    EncounterHP: 65
+    CatchChance: 35
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: d6068cbf56762b546ac249e8d42eaa95, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.3
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: b01e06064df0afb4a9585cf7114c70d5, type: 3}
+    ICON: {fileID: 11400000, guid: 3f1f90ad9ec44b3449d59b49355c86a7, type: 2}
+    Type: 45
+    RangeAttack: 2
+    TimeEffect: 2
+    ID: 0
+    Damage: 30
+    HP: 65
+    Rarity: 5
+    EnocunterATK: 30
+    EncounterHP: 65
+    CatchChance: 50
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 22f3da154dfe8a2448ea71cc9c6f20a8, type: 3}
+    ICON: {fileID: 11400000, guid: c63ef19b963882b479232f23796f4192, type: 2}
+    Type: 46
+    RangeAttack: 2
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 50
+    HP: 100
+    Rarity: 5
+    EnocunterATK: 45
+    EncounterHP: 450
+    CatchChance: 10
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c1207339b38d64943bd62043a813bc73, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.25
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: fad2bc9d90151f841b6b1ded04864ced, type: 3}
+    ICON: {fileID: 11400000, guid: feac62a9f30733c4ba5cd8d0a517b7dc, type: 2}
+    Type: 47
+    RangeAttack: 2
+    TimeEffect: 0.65
+    ID: 0
+    Damage: 40
+    HP: 75
+    Rarity: 5
+    EnocunterATK: 40
+    EncounterHP: 75
+    CatchChance: 55
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c619e6a03a50fac49ab4653e2bcc9f8c, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: 9f36e35e97cf038469109ee02ba5fa10, type: 3}
+    TimeSoundStart: 0.35
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 1612cd1bc87ecfb47b075ce47b7871f5, type: 3}
+    ICON: {fileID: 11400000, guid: 5cfbca6d3eaf40a42830c508fd6b922a, type: 2}
+    Type: 48
+    RangeAttack: 0
+    TimeEffect: 0.5
+    ID: 0
+    Damage: 35
+    HP: 75
+    Rarity: 5
+    EnocunterATK: 35
+    EncounterHP: 75
+    CatchChance: 45
+    CombineCost: 650
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: e626aa09c2b476a4f8484876b93c1c9c, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.9
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: aae1cf32c1a331046aaf0ae18008077b, type: 3}
+    ICON: {fileID: 11400000, guid: 418642bdbb31bbf48b49ea409f8ab340, type: 2}
+    Type: 49
+    RangeAttack: 2
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 35
+    HP: 75
+    Rarity: 5
+    EnocunterATK: 35
+    EncounterHP: 75
+    CatchChance: 45
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: a8f487dbbed4523449317bcaf5c2c555, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 3c1dc2a32d1a78d4a91f961c243e4857, type: 3}
+    ICON: {fileID: 11400000, guid: a27db8a66d4de9f42b406c8f958769fd, type: 2}
+    Type: 50
+    RangeAttack: 1
+    TimeEffect: 0
+    ID: 0
+    Damage: 35
+    HP: 80
+    Rarity: 5
+    EnocunterATK: 35
+    EncounterHP: 80
+    CatchChance: 35
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: eb2543086ccc4e84c93fd15ec10e228a, type: 3}
+    ICON: {fileID: 11400000, guid: 38650dfa6f52bec4c8cff08939d68b93, type: 2}
+    Type: 51
+    RangeAttack: 2
+    TimeEffect: 0.7
+    ID: 0
+    Damage: 30
+    HP: 85
+    Rarity: 5
+    EnocunterATK: 30
+    EncounterHP: 85
+    CatchChance: 10
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 335aa01d86d257b45a090f3c044f7292, type: 3}
+    ICON: {fileID: 11400000, guid: 9f0c2c848df173945a82ca6989d469df, type: 2}
+    Type: 52
+    RangeAttack: 0
+    TimeEffect: 0.4
+    ID: 0
+    Damage: 30
+    HP: 90
+    Rarity: 5
+    EnocunterATK: 30
+    EncounterHP: 90
+    CatchChance: 45
+    CombineCost: 650
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: e1799f0e60c81f443923ab8e32544873, type: 3}
+    ICON: {fileID: 11400000, guid: 6667645da99e61243acc33d3d3ec0eb3, type: 2}
+    Type: 53
+    RangeAttack: 2
+    TimeEffect: 0.65
+    ID: 0
+    Damage: 35
+    HP: 75
+    Rarity: 5
+    EnocunterATK: 35
+    EncounterHP: 75
+    CatchChance: 35
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c6088bd5dd19a4a49a47c555d0c2806e, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 475b0a892d1fd0c468628cec53652f51, type: 3}
+    ICON: {fileID: 11400000, guid: fe21da5f2d6b11d489f432164cc805ac, type: 2}
+    Type: 54
+    RangeAttack: 2
+    TimeEffect: 2
+    ID: 0
+    Damage: 25
+    HP: 115
+    Rarity: 5
+    EnocunterATK: 25
+    EncounterHP: 115
+    CatchChance: 10
+    CombineCost: 650
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 59c696ec9cf24784dac16b206a0a9c17, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.75
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 15ca63443b323e14990e49ed7ce03c97, type: 3}
+    ICON: {fileID: 11400000, guid: 8b340b0170a2c9a4f8b2954e5b472357, type: 2}
+    Type: 55
+    RangeAttack: 0
+    TimeEffect: 0.8
+    ID: 0
+    Damage: 25
+    HP: 115
+    Rarity: 5
+    EnocunterATK: 25
+    EncounterHP: 115
+    CatchChance: 55
+    CombineCost: 650
+    Offset: {x: -2, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: f8a3a14be93eafb46a65588bfcd250f4, type: 3}
+    ICON: {fileID: 11400000, guid: 104e8353e7847524cb464544ce63907e, type: 2}
+    Type: 56
+    RangeAttack: 2
+    TimeEffect: 1.1
+    ID: 0
+    Damage: 55
+    HP: 100
+    Rarity: 6
+    EnocunterATK: 55
+    EncounterHP: 100
+    CatchChance: 40
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 585f56b01f4be9d44a36d74ff0de71aa, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.2
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a983dc47da291774e9fc52c66a98a84d, type: 3}
+    ICON: {fileID: 11400000, guid: 1e3ce5f4988c66a4aa131a72e0b642fc, type: 2}
+    Type: 57
+    RangeAttack: 2
+    TimeEffect: 1.1
+    ID: 0
+    Damage: 60
+    HP: 100
+    Rarity: 6
+    EnocunterATK: 60
+    EncounterHP: 100
+    CatchChance: 35
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 86dc56ff15b3d84478a64fb096b20781, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: c15d245bfa37cdd4aaf1ffc6ddf4fae2, type: 3}
+    TimeSoundStart: 0.3
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d1c54e2c279abe34095b32e5e45f590b, type: 3}
+    ICON: {fileID: 11400000, guid: 22e79da28f216ca44bf421475e811f14, type: 2}
+    Type: 58
+    RangeAttack: 2
+    TimeEffect: 0.8
+    ID: 0
+    Damage: 60
+    HP: 100
+    Rarity: 6
+    EnocunterATK: 60
+    EncounterHP: 100
+    CatchChance: 35
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c314e14e6c2eb9b49a7244a4df67ca5b, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.35
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 5aa3539511d3f1143a1ee1844e9dd07c, type: 3}
+    ICON: {fileID: 11400000, guid: a0b2d85c6d7165c4cb55a8ada9910d8d, type: 2}
+    Type: 59
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 50
+    HP: 105
+    Rarity: 6
+    EnocunterATK: 50
+    EncounterHP: 105
+    CatchChance: 45
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 2b3141b65ff7b544396b34363000502d, type: 3}
+    ICON: {fileID: 11400000, guid: 5b414b7500371cc47af10dff2bfbc249, type: 2}
+    Type: 60
+    RangeAttack: 2
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 55
+    HP: 110
+    Rarity: 6
+    EnocunterATK: 55
+    EncounterHP: 110
+    CatchChance: 10
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 727c14f9b30a8f84da3539b299b5c73a, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a08e1c536479b264aa94661a4af7c162, type: 3}
+    ICON: {fileID: 11400000, guid: 42ba2b2b5a8cee94fa5064c94c345c51, type: 2}
+    Type: 61
+    RangeAttack: 2
+    TimeEffect: 1.2
+    ID: 0
+    Damage: 50
+    HP: 120
+    Rarity: 6
+    EnocunterATK: 50
+    EncounterHP: 120
+    CatchChance: 45
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: c619e6a03a50fac49ab4653e2bcc9f8c, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.6
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a8d5b2a0f362438418ac86e331d50270, type: 3}
+    ICON: {fileID: 11400000, guid: a9c29be22ce54bc4593a5e2b4a18476b, type: 2}
+    Type: 62
+    RangeAttack: 2
+    TimeEffect: 1.2
+    ID: 0
+    Damage: 65
+    HP: 125
+    Rarity: 6
+    EnocunterATK: 65
+    EncounterHP: 125
+    CatchChance: 10
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 7f9147e53bf692f438d55f889be2b129, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c3307877d5684f745b2344b0d268a508, type: 3}
+    ICON: {fileID: 11400000, guid: a6d4655bc1851704790f749caef8bcaf, type: 2}
+    Type: 63
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 55
+    HP: 125
+    Rarity: 6
+    EnocunterATK: 55
+    EncounterHP: 125
+    CatchChance: 35
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 80693911f29ecef488fb12a4bb9497fd, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 0d92e22586ac44e4fb69b33af22ed68c, type: 3}
+    ICON: {fileID: 11400000, guid: 710a0ae51ec59d34cad54a5cf32e3568, type: 2}
+    Type: 64
+    RangeAttack: 0
+    TimeEffect: 0.6
+    ID: 0
+    Damage: 45
+    HP: 130
+    Rarity: 6
+    EnocunterATK: 45
+    EncounterHP: 130
+    CatchChance: 35
+    CombineCost: 1000
+    Offset: {x: 1, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 717cb90a48323ca4fae96718291bddbb, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a4c3e2b3fbb12774f885e100e2ca8319, type: 3}
+    ICON: {fileID: 11400000, guid: 27ed6dababace514da4609770d8415de, type: 2}
+    Type: 65
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 45
+    HP: 145
+    Rarity: 6
+    EnocunterATK: 45
+    EncounterHP: 145
+    CatchChance: 10
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 0000743f98180df4abc32ee03777cfbf, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.45
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: dd6a437dec064544fbca3cd0747d5cd3, type: 3}
+    ICON: {fileID: 11400000, guid: 52cad83bb399aa2478d7f5ef9cab5497, type: 2}
+    Type: 66
+    RangeAttack: 2
+    TimeEffect: 1.4
+    ID: 0
+    Damage: 50
+    HP: 145
+    Rarity: 6
+    EnocunterATK: 50
+    EncounterHP: 145
+    CatchChance: 35
+    CombineCost: 1000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 16e491a52fa47464d9f14178ac457604, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 8300000, guid: f10ba688123396a42befe8751c28dffa, type: 3}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: dc6234edff5438946b72aefe1573abd6, type: 3}
+    ICON: {fileID: 11400000, guid: 0eecebdf75ac3f048b270a786d285e3d, type: 2}
+    Type: 67
+    RangeAttack: 2
+    TimeEffect: 1.3
+    ID: 0
+    Damage: 65
+    HP: 145
+    Rarity: 6
+    EnocunterATK: 60
+    EncounterHP: 888
+    CatchChance: 5
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: a8f487dbbed4523449317bcaf5c2c555, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.55
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bc38aaf02c44a894a81cf5828814bf18, type: 3}
+    ICON: {fileID: 11400000, guid: dcc0b99c538de9146bf07c4f33f057ad, type: 2}
+    Type: 68
+    RangeAttack: 2
+    TimeEffect: 1.3
+    ID: 0
+    Damage: 65
+    HP: 110
+    Rarity: 7
+    EnocunterATK: 65
+    EncounterHP: 110
+    CatchChance: 25
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: d22f65f1ac0005247a529bc1711d4c20, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a34101dcacf1c29478b95d63104f7423, type: 3}
+    ICON: {fileID: 11400000, guid: 3faceccc25b4d0548b63ade9db009385, type: 2}
+    Type: 69
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 75
+    HP: 115
+    Rarity: 7
+    EnocunterATK: 75
+    EncounterHP: 115
+    CatchChance: 25
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 15b5be6a501088a419ccfa80583b05c6, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.9
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d529cc377992b5f49a2a02097b05c470, type: 3}
+    ICON: {fileID: 11400000, guid: e3d6892283ee43f48bede385cafa6f64, type: 2}
+    Type: 70
+    RangeAttack: 0
+    TimeEffect: 1
+    ID: 0
+    Damage: 80
+    HP: 145
+    Rarity: 7
+    EnocunterATK: 80
+    EncounterHP: 145
+    CatchChance: 30
+    CombineCost: 2000
+    Offset: {x: -1.5, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 58ee66bb26b57cb42b6b1e5a6d1b2826, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.48
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 9ead92b0fed6a9e4fbd7161a5788e306, type: 3}
+    ICON: {fileID: 11400000, guid: 249752c4b7e81054eaaee41b61287170, type: 2}
+    Type: 71
+    RangeAttack: 2
+    TimeEffect: 0.95
+    ID: 0
+    Damage: 100
+    HP: 150
+    Rarity: 7
+    EnocunterATK: 100
+    EncounterHP: 150
+    CatchChance: 7
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 86749e7e0aacfef4cb5b9e6303efb6e9, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.35
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 9805fb46a440a2d468b10195a6fbf52a, type: 3}
+    ICON: {fileID: 11400000, guid: ba56bb28620e468479d73f9ad79d1d26, type: 2}
+    Type: 72
+    RangeAttack: 2
+    TimeEffect: 1.2
+    ID: 0
+    Damage: 65
+    HP: 165
+    Rarity: 7
+    EnocunterATK: 65
+    EncounterHP: 165
+    CatchChance: 7
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: b204a8440e9816c41ad42f48ab3263c4, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 66bec3f5657c8f043ab79d3ad69d6040, type: 3}
+    ICON: {fileID: 11400000, guid: 9d40cc16ba360f54ba0a62a4417c944f, type: 2}
+    Type: 73
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 110
+    HP: 170
+    Rarity: 7
+    EnocunterATK: 110
+    EncounterHP: 170
+    CatchChance: 35
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 42162ecf9405c5348b550eb731507f5f, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 1d9ef1e676af7dc43a46263e13f54ff8, type: 3}
+    ICON: {fileID: 11400000, guid: e36749db1865d6a4bb93eeb5152c6ab3, type: 2}
+    Type: 74
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 120
+    HP: 170
+    Rarity: 7
+    EnocunterATK: 120
+    EncounterHP: 170
+    CatchChance: 7
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 937171cc65b8257449f5339c754929b9, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 922f54e80660e554b9ffc2a872af300a, type: 3}
+    ICON: {fileID: 11400000, guid: c52849c3e25074544a4f58f1acbf4ce9, type: 2}
+    Type: 75
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 90
+    HP: 180
+    Rarity: 7
+    EnocunterATK: 90
+    EncounterHP: 180
+    CatchChance: 25
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 267a42daf1a31df4cac4dd8905edf21b, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.3
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bb97a067c566d524e9525b9d3307fb99, type: 3}
+    ICON: {fileID: 11400000, guid: ddc4e8e6f66149448994fce023da2664, type: 2}
+    Type: 76
+    RangeAttack: 2
+    TimeEffect: 1.8
+    ID: 0
+    Damage: 80
+    HP: 180
+    Rarity: 7
+    EnocunterATK: 80
+    EncounterHP: 180
+    CatchChance: 30
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: e3cf6262cf98ee548a1ab339113f3a8f, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c1412809f95998e4091a6d5746118af6, type: 3}
+    ICON: {fileID: 11400000, guid: c12e16c5315c99f469cbbf3cd07fa622, type: 2}
+    Type: 77
+    RangeAttack: 2
+    TimeEffect: 1.15
+    ID: 0
+    Damage: 80
+    HP: 200
+    Rarity: 7
+    EnocunterATK: 80
+    EncounterHP: 200
+    CatchChance: 7
+    CombineCost: 2000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 1c9b7b849bd98c34b89145407edcade6, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: e4be789865b57f54382931943f09a095, type: 3}
+    ICON: {fileID: 11400000, guid: ba2f8c292b5b9444eb5cef991b13a8e8, type: 2}
+    Type: 78
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 100
+    HP: 200
+    Rarity: 7
+    EnocunterATK: 75
+    EncounterHP: 1300
+    CatchChance: 5
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: f0481b2f23bde8c42aefb8c3e0d4183c, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d5f2720ce2b3019499d3df88dfeac47b, type: 3}
+    ICON: {fileID: 11400000, guid: a016de3ea5c22184298d1005ab310ae2, type: 2}
+    Type: 79
+    RangeAttack: 2
+    TimeEffect: 1.35
+    ID: 0
+    Damage: 125
+    HP: 165
+    Rarity: 8
+    EnocunterATK: 125
+    EncounterHP: 165
+    CatchChance: 25
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: b20cf359cf51e88458ca67055d757e54, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c7c84b91fc73b3f48b08d45e5b7f94c6, type: 3}
+    ICON: {fileID: 11400000, guid: bc86858f13dc31c4289cc6e145a08726, type: 2}
+    Type: 80
+    RangeAttack: 2
+    TimeEffect: 1.5
+    ID: 0
+    Damage: 130
+    HP: 180
+    Rarity: 8
+    EnocunterATK: 130
+    EncounterHP: 180
+    CatchChance: 7
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 94c5774f523337146a98e3be9baafccf, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.2
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 25e43ae4eb6250a43bfdfe3e1a51802f, type: 3}
+    ICON: {fileID: 11400000, guid: 2dcee632d10601446ad54dd15f45684f, type: 2}
+    Type: 81
+    RangeAttack: 0
+    TimeEffect: 0.9
+    ID: 0
+    Damage: 160
+    HP: 200
+    Rarity: 8
+    EnocunterATK: 160
+    EncounterHP: 200
+    CatchChance: 30
+    CombineCost: 3000
+    Offset: {x: -3.2, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 0c53acd58c77fc94a824b1b6e90e87e0, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.5
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: a8b073b70d0f5e342ba5e53a8bb5ef84, type: 3}
+    ICON: {fileID: 11400000, guid: d8aff4d23e1dfe8489a0fdc77e9a37b1, type: 2}
+    Type: 82
+    RangeAttack: 2
+    TimeEffect: 1.35
+    ID: 0
+    Damage: 100
+    HP: 200
+    Rarity: 8
+    EnocunterATK: 100
+    EncounterHP: 200
+    CatchChance: 7
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 6d5d43dbde4d5fc43a133f653422fa2b, type: 3}
+    SoundStart2: {fileID: 8300000, guid: ffde29b0bb7bfc84e8680fedcd98fb9e, type: 3}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 1
+  - Avatar: {fileID: 21300000, guid: 1d31cc98f31cbab44a027d823b63bf66, type: 3}
+    ICON: {fileID: 11400000, guid: 559e83089d0af0f4c96a3ff01c17dc6f, type: 2}
+    Type: 83
+    RangeAttack: 2
+    TimeEffect: 1.35
+    ID: 0
+    Damage: 175
+    HP: 200
+    Rarity: 8
+    EnocunterATK: 175
+    EncounterHP: 200
+    CatchChance: 35
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 46fadd90b1aa4684aa6ec3b769bad71c, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.1
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 29ce17dbf8fc7654ab38491b45c4d3e1, type: 3}
+    ICON: {fileID: 11400000, guid: 8ed428477d5fbed47bb7894801fd88ee, type: 2}
+    Type: 84
+    RangeAttack: 2
+    TimeEffect: 1.6
+    ID: 0
+    Damage: 170
+    HP: 200
+    Rarity: 8
+    EnocunterATK: 170
+    EncounterHP: 200
+    CatchChance: 45
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: ce4bc02e436f004418a61854238c31d7, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.2
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c417a78dd3010bc45a23b491ebc6f55a, type: 3}
+    ICON: {fileID: 11400000, guid: 6bd9e9e82c477594fa1c849d4afac575, type: 2}
+    Type: 85
+    RangeAttack: 2
+    TimeEffect: 1
+    ID: 0
+    Damage: 190
+    HP: 205
+    Rarity: 8
+    EnocunterATK: 190
+    EncounterHP: 205
+    CatchChance: 35
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 15ab5ded0aec61e41a450512b942c940, type: 3}
+    SoundStart2: {fileID: 8300000, guid: 460caf67f094f2e4fa42b1976ce26ba5, type: 3}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0.5
+  - Avatar: {fileID: 21300000, guid: f8269a43bc71fec499bb33897e869f2c, type: 3}
+    ICON: {fileID: 11400000, guid: de0d123b2b049524b93dc8bfef5d4b3e, type: 2}
+    Type: 86
+    RangeAttack: 2
+    TimeEffect: 1.35
+    ID: 0
+    Damage: 120
+    HP: 205
+    Rarity: 8
+    EnocunterATK: 120
+    EncounterHP: 205
+    CatchChance: 30
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 3efe1ac6870c548409c747e0c1f4e6c2, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0.25
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 864464600e889f448960a1197ef8fc8a, type: 3}
+    ICON: {fileID: 11400000, guid: 8bfa5bdfd92e124419a0d00c7f1d0c9f, type: 2}
+    Type: 87
+    RangeAttack: 2
+    TimeEffect: 1.2
+    ID: 0
+    Damage: 200
+    HP: 210
+    Rarity: 8
+    EnocunterATK: 200
+    EncounterHP: 210
+    CatchChance: 5
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: 63d898391318f6d44b3515ba2af95467, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bf43439bfe28fa648a3a3733d74967b8, type: 3}
+    ICON: {fileID: 11400000, guid: 248a306290dd75c4b9420a25e8147ec7, type: 2}
+    Type: 88
+    RangeAttack: 0
+    TimeEffect: 1.1
+    ID: 0
+    Damage: 165
+    HP: 220
+    Rarity: 8
+    EnocunterATK: 165
+    EncounterHP: 220
+    CatchChance: 25
+    CombineCost: 3000
+    Offset: {x: 1, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: d93291c461938db4b9949b96377f1dac, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 88ecc334c5cf70845afc3d9a2fa29c75, type: 3}
+    ICON: {fileID: 11400000, guid: 1f56a7b76026f974d9c4657f6351cab2, type: 2}
+    Type: 89
+    RangeAttack: 2
+    TimeEffect: 1.95
+    ID: 0
+    Damage: 200
+    HP: 220
+    Rarity: 8
+    EnocunterATK: 100
+    EncounterHP: 1600
+    CatchChance: 10
+    CombineCost: 3000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 8300000, guid: dbe93225c5c1a6e4b8542b5f835f29aa, type: 3}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 2ca2f4ea0a3802648a2468e39c76306a, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 90
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 210
+    HP: 205
+    Rarity: 9
+    EnocunterATK: 210
+    EncounterHP: 205
+    CatchChance: 7
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: b25dea2870c64d1478be19089506f906, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 91
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 190
+    HP: 215
+    Rarity: 9
+    EnocunterATK: 190
+    EncounterHP: 215
+    CatchChance: 25
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 8a33404db7cac7e4e9af2c38875e1537, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 92
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 205
+    HP: 220
+    Rarity: 9
+    EnocunterATK: 205
+    EncounterHP: 220
+    CatchChance: 25
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: c7b907025fa50be4080a96c4c1b9dd2c, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 93
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 200
+    HP: 230
+    Rarity: 9
+    EnocunterATK: 200
+    EncounterHP: 230
+    CatchChance: 7
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: e04575915529c644bb53176ff0cb6789, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 94
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 195
+    HP: 250
+    Rarity: 9
+    EnocunterATK: 195
+    EncounterHP: 250
+    CatchChance: 5
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: f07b91768004a644b970798a778c06fb, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 95
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 190
+    HP: 280
+    Rarity: 9
+    EnocunterATK: 190
+    EncounterHP: 280
+    CatchChance: 45
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 58a05bc8f6018ff47a8d0313400831ca, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 96
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 210
+    HP: 300
+    Rarity: 9
+    EnocunterATK: 210
+    EncounterHP: 300
+    CatchChance: 25
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 94c7ffbc254d4bc44954ef4c9908ad5b, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 97
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 200
+    HP: 300
+    Rarity: 9
+    EnocunterATK: 200
+    EncounterHP: 300
+    CatchChance: 5
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 07687832776bc544fb351567210e52f6, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 98
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 200
+    HP: 300
+    Rarity: 9
+    EnocunterATK: 200
+    EncounterHP: 300
+    CatchChance: 30
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 1683e960a8cc6cf44ab423c1a3605bf5, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 99
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 230
+    HP: 330
+    Rarity: 9
+    EnocunterATK: 90
+    EncounterHP: 2400
+    CatchChance: 10
+    CombineCost: 5000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 3b85928cf7358c84082b6c04ce07b038, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 100
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 255
+    HP: 320
+    Rarity: 10
+    EnocunterATK: 255
+    EncounterHP: 320
+    CatchChance: 35
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: d94cd4a3daeb47246a14f7934869acbf, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 101
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 260
+    HP: 320
+    Rarity: 10
+    EnocunterATK: 260
+    EncounterHP: 320
+    CatchChance: 35
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bd44a9ac9f5a40c468a0b5ea7604b0f2, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 102
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 275
+    HP: 330
+    Rarity: 10
+    EnocunterATK: 275
+    EncounterHP: 330
+    CatchChance: 25
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 3993c14af2fcba14a96e858e1e6bbbf5, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 103
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 250
+    HP: 330
+    Rarity: 10
+    EnocunterATK: 250
+    EncounterHP: 330
+    CatchChance: 30
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 7ce66b0e143d3f64498cf10b2df03c56, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 104
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 320
+    HP: 335
+    Rarity: 10
+    EnocunterATK: 320
+    EncounterHP: 335
+    CatchChance: 0
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 6700302ba5181e44da4173d783505ac5, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 105
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 295
+    HP: 350
+    Rarity: 10
+    EnocunterATK: 295
+    EncounterHP: 350
+    CatchChance: 0
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 89b9469aa90b0014fb427e7474825ba2, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 106
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 265
+    HP: 365
+    Rarity: 10
+    EnocunterATK: 265
+    EncounterHP: 365
+    CatchChance: 25
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: f580930a914b4424291c0072dedd9f19, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 107
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 300
+    HP: 375
+    Rarity: 10
+    EnocunterATK: 300
+    EncounterHP: 375
+    CatchChance: 0
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 2ee1b04b2bbe57b4ca4397e60bc78dc4, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 108
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 320
+    HP: 380
+    Rarity: 10
+    EnocunterATK: 320
+    EncounterHP: 380
+    CatchChance: 30
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 151ed964890197746a0263c86b34059b, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 109
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 300
+    HP: 380
+    Rarity: 10
+    EnocunterATK: 300
+    EncounterHP: 380
+    CatchChance: 0
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 37a7d73fabf82fe438c2aed00f68d41c, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 110
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 330
+    HP: 390
+    Rarity: 10
+    EnocunterATK: 120
+    EncounterHP: 3600
+    CatchChance: 10
+    CombineCost: 7500
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: bc1dbdb5a2982e245b7d240b50e89521, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 111
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 350
+    HP: 400
+    Rarity: 11
+    EnocunterATK: 125
+    EncounterHP: 4200
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: dcd736ef117d45b42a688550ee68fec7, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 112
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 330
+    HP: 400
+    Rarity: 11
+    EnocunterATK: 120
+    EncounterHP: 3800
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 0bc4a7aa6bda6c14b96cace5d3512065, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 113
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 365
+    HP: 420
+    Rarity: 11
+    EnocunterATK: 160
+    EncounterHP: 4000
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 987d9041507899041b1fd1a139c0b054, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 114
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 320
+    HP: 440
+    Rarity: 11
+    EnocunterATK: 130
+    EncounterHP: 4000
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: ecfe08b9119fc534782cb26301905051, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 115
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 400
+    HP: 450
+    Rarity: 11
+    EnocunterATK: 150
+    EncounterHP: 5500
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 02c174cdd07997644a76080a6531eea6, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 116
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 320
+    HP: 500
+    Rarity: 11
+    EnocunterATK: 100
+    EncounterHP: 6500
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 62c0c9f7c55818b408de241027b01ce3, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 117
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 390
+    HP: 550
+    Rarity: 11
+    EnocunterATK: 120
+    EncounterHP: 6600
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: 565710a94f1cebd49af2e72946add53a, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 118
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 400
+    HP: 600
+    Rarity: 11
+    EnocunterATK: 120
+    EncounterHP: 7000
+    CatchChance: 10
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0
+  - Avatar: {fileID: 21300000, guid: f57966065a666c641a37a6d56a152b12, type: 3}
+    ICON: {fileID: 11400000, guid: df7eff0a00d819347b5a2d1ce0f4da6e, type: 2}
+    Type: 119
+    RangeAttack: 0
+    TimeEffect: 0
+    ID: 0
+    Damage: 440
+    HP: 600
+    Rarity: 11
+    EnocunterATK: 180
+    EncounterHP: 7400
+    CatchChance: 5
+    CombineCost: 10000
+    Offset: {x: 0, y: 0, z: 0}
+    SoundStart: {fileID: 0}
+    SoundStart2: {fileID: 0}
+    SoundEnd: {fileID: 0}
+    TimeSoundStart: 0
+    TimeSoundStart2: 0

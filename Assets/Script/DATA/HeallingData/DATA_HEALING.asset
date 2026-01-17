@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6cce9746304fb428e74b1c87a822ec, type: 3}
+  m_Name: DATA_HEALING
+  m_EditorClassIdentifier: 
+  E_Blood:
+  - Cost_HP_Lowest: 25
+    Cost_HP_Low: 13
+    Cost_HP_Medium: 8
+    Cost_HP_Hight: 6
+  - Cost_HP_Lowest: 50
+    Cost_HP_Low: 25
+    Cost_HP_Medium: 17
+    Cost_HP_Hight: 13
+  - Cost_HP_Lowest: 75
+    Cost_HP_Low: 38
+    Cost_HP_Medium: 25
+    Cost_HP_Hight: 19
+  - Cost_HP_Lowest: 100
+    Cost_HP_Low: 50
+    Cost_HP_Medium: 33
+    Cost_HP_Hight: 25
+  - Cost_HP_Lowest: 135
+    Cost_HP_Low: 68
+    Cost_HP_Medium: 45
+    Cost_HP_Hight: 34
+  - Cost_HP_Lowest: 170
+    Cost_HP_Low: 85
+    Cost_HP_Medium: 57
+    Cost_HP_Hight: 43
+  - Cost_HP_Lowest: 205
+    Cost_HP_Low: 103
+    Cost_HP_Medium: 68
+    Cost_HP_Hight: 51
+  - Cost_HP_Lowest: 250
+    Cost_HP_Low: 125
+    Cost_HP_Medium: 83
+    Cost_HP_Hight: 63
+  - Cost_HP_Lowest: 305
+    Cost_HP_Low: 153
+    Cost_HP_Medium: 102
+    Cost_HP_Hight: 76
+  - Cost_HP_Lowest: 370
+    Cost_HP_Low: 185
+    Cost_HP_Medium: 123
+    Cost_HP_Hight: 93
+  - Cost_HP_Lowest: 455
+    Cost_HP_Low: 228
+    Cost_HP_Medium: 152
+    Cost_HP_Hight: 114

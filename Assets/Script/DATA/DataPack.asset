@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0810b167552c05c449c0b327031ebfb1, type: 3}
+  m_Name: DataPack
+  m_EditorClassIdentifier: 
+  L_PackReward1:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 1
+  - typeRwPack: 1
+    SP_Item: {fileID: 21300000, guid: 7702f4311fb84da419785aae4d2ecb83, type: 3}
+    Quantity: 5000
+  - typeRwPack: 0
+    SP_Item: {fileID: 21300000, guid: 1e57572d5c5c72c45a8e27f31e142b1a, type: 3}
+    Quantity: 60
+  L_PackReward2:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 1
+  - typeRwPack: 1
+    SP_Item: {fileID: 21300000, guid: 7702f4311fb84da419785aae4d2ecb83, type: 3}
+    Quantity: 6000
+  - typeRwPack: 0
+    SP_Item: {fileID: 21300000, guid: 1e57572d5c5c72c45a8e27f31e142b1a, type: 3}
+    Quantity: 80
+  L_PackReward3:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 2
+  - typeRwPack: 1
+    SP_Item: {fileID: 21300000, guid: 7702f4311fb84da419785aae4d2ecb83, type: 3}
+    Quantity: 10000
+  - typeRwPack: 0
+    SP_Item: {fileID: 21300000, guid: 1e57572d5c5c72c45a8e27f31e142b1a, type: 3}
+    Quantity: 100
+  L_PackReward4:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 2
+  - typeRwPack: 1
+    SP_Item: {fileID: 21300000, guid: 7702f4311fb84da419785aae4d2ecb83, type: 3}
+    Quantity: 20000
+  - typeRwPack: 0
+    SP_Item: {fileID: 21300000, guid: 1e57572d5c5c72c45a8e27f31e142b1a, type: 3}
+    Quantity: 200
+  L_PackReward5:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 2
+  - typeRwPack: 3
+    SP_Item: {fileID: 21300000, guid: 640087acf4d5bb34eb1db49f8a8a9b60, type: 3}
+    Quantity: 2
+  - typeRwPack: 4
+    SP_Item: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}
+    Quantity: 2
+  L_PackReward6:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 4
+  - typeRwPack: 3
+    SP_Item: {fileID: 21300000, guid: 640087acf4d5bb34eb1db49f8a8a9b60, type: 3}
+    Quantity: 3
+  - typeRwPack: 4
+    SP_Item: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}
+    Quantity: 2
+  L_PackReward7:
+  - typeRwPack: 2
+    SP_Item: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+    Quantity: 3
+  - typeRwPack: 3
+    SP_Item: {fileID: 21300000, guid: 640087acf4d5bb34eb1db49f8a8a9b60, type: 3}
+    Quantity: 3
+  - typeRwPack: 4
+    SP_Item: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}
+    Quantity: 3
+  L_PricePack:
+  - pricePack: 0.99
+  - pricePack: 0.99
+  - pricePack: 1.99
+  - pricePack: 4.99
+  - pricePack: 4.99
+  - pricePack: 9.99
+  - pricePack: 9.99

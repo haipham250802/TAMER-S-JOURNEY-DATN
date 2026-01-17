@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b102494bf9915f14e89034f1a99e808b, type: 3}
+  m_Name: DataPackZone
+  m_EditorClassIdentifier: 
+  L_PackZoneStat:
+  - typeZone: 0
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 200
+    QuantityRewarsNoFree1: 500
+    QuantityRewarsNoFree2: 20
+  - typeZone: 1
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 200
+    QuantityRewarsNoFree1: 500
+    QuantityRewarsNoFree2: 20
+  - typeZone: 2
+    TypeRewardsNofree1: 0
+    TypeRewardsNofree2: 2
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 85f50efa8e8bb3941b5e173ccfc5d68a, type: 3}
+    QuantityRewarsFree: 300
+    QuantityRewarsNoFree1: 5
+    QuantityRewarsNoFree2: 1
+  - typeZone: 3
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 300
+    QuantityRewarsNoFree1: 800
+    QuantityRewarsNoFree2: 30
+  - typeZone: 4
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 400
+    QuantityRewarsNoFree1: 800
+    QuantityRewarsNoFree2: 30
+  - typeZone: 5
+    TypeRewardsNofree1: 0
+    TypeRewardsNofree2: 3
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 640087acf4d5bb34eb1db49f8a8a9b60, type: 3}
+    QuantityRewarsFree: 400
+    QuantityRewarsNoFree1: 10
+    QuantityRewarsNoFree2: 1
+  - typeZone: 6
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 500
+    QuantityRewarsNoFree1: 1000
+    QuantityRewarsNoFree2: 50
+  - typeZone: 7
+    TypeRewardsNofree1: 1
+    TypeRewardsNofree2: 0
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    QuantityRewarsFree: 500
+    QuantityRewarsNoFree1: 1000
+    QuantityRewarsNoFree2: 50
+  - typeZone: 8
+    TypeRewardsNofree1: 0
+    TypeRewardsNofree2: 4
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}
+    QuantityRewarsFree: 600
+    QuantityRewarsNoFree1: 20
+    QuantityRewarsNoFree2: 1
+  - typeZone: 9
+    TypeRewardsNofree1: 0
+    TypeRewardsNofree2: 4
+    SP_NoFreeIcon1: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+    SP_NoFreeIcon2: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}
+    QuantityRewarsFree: 600
+    QuantityRewarsNoFree1: 30
+    QuantityRewarsNoFree2: 1
+  SP_Coin: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  SP_Gem: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+  SP_ChestNormal: {fileID: 21300000, guid: 85f50efa8e8bb3941b5e173ccfc5d68a, type: 3}
+  SP_ChestEpic: {fileID: 21300000, guid: 640087acf4d5bb34eb1db49f8a8a9b60, type: 3}
+  SP_ChestLegend: {fileID: 21300000, guid: 2be5c84e348a5ef4b9ab1c2d5863f324, type: 3}

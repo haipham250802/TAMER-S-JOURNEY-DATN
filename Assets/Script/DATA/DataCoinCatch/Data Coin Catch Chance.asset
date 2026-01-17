@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd587de5a1a07a34c8a3a0d9d0151867, type: 3}
+  m_Name: Data Coin Catch Chance
+  m_EditorClassIdentifier: 
+  dataCoins:
+  - Star: 1
+    Coin: 400
+    Gem: 8
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 2
+    Coin: 450
+    Gem: 10
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 3
+    Coin: 500
+    Gem: 12
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 4
+    Coin: 550
+    Gem: 14
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 5
+    Coin: 600
+    Gem: 16
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 6
+    Coin: 650
+    Gem: 18
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 7
+    Coin: 700
+    Gem: 20
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 8
+    Coin: 750
+    Gem: 22
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 9
+    Coin: 800
+    Gem: 24
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 10
+    Coin: 850
+    Gem: 26
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 11
+    Coin: 900
+    Gem: 28
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15
+  - Star: 12
+    Coin: 1000
+    Gem: 30
+    RateBonusWithCoin: 15
+    RateBonusWithGem: 30
+    RateBonusWithAds: 15

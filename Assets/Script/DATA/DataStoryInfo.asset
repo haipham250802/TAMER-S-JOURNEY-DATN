@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12a7df82f674024a97f8b250264b3b9, type: 3}
+  m_Name: DataStoryInfo
+  m_EditorClassIdentifier: 
+  L_StoryInfor:
+  - characterType: 0
+    KEY: Tuchis
+    Story: Often disguises himself as a king to go out to eat for free, likes to
+      eat dumplings
+  - characterType: 1
+    KEY: Snicket
+    Story: A responsible sheriff who always reminds everyone to eat broccoli
+  - characterType: 2
+    KEY: Nibble
+    Story: Like to roam around the world, the two antennas on the head can connect
+      to bluetooth
+  - characterType: 3
+    KEY: Huzzah
+    Story: Longing for a simple life, afraid of the sun, afraid of the rain, has
+      to carry an umbrella wherever he goes
+  - characterType: 4
+    KEY: Mizzen
+    Story: A silly monster who loves children, wandering around making new friends
+  - characterType: 5
+    KEY: Chockablock
+    Story: Fun, sociable but sometimes feel lonely
+  - characterType: 6
+    KEY: Mishmash
+    Story: Shy, timid in relationships. He helps take care of a worm that has lost
+      his parents and often asks him to communicate for him
+  - characterType: 7
+    KEY: Bumpkin
+    Story: Always hungry. His favourite food is the little flies
+  - characterType: 8
+    KEY: Tuber
+    Story: They said real man wears pink..
+  - characterType: 9
+    KEY: Loony
+    Story: Manage a blog that reviews romantic movies, timid in front of the crowd
+  - characterType: 10
+    KEY: Footloose
+    Story: An invincible boxer with four arms made from steel
+  - characterType: 11
+    KEY: Quagga
+    Story: Likes to eat sweets, especially those rainbow candies. His biggest dream
+      is to see candy rain
+  - characterType: 12
+    KEY: Squabble
+    Story: Only cry when chopping onions
+  - characterType: 13
+    KEY: Grog
+    Story: Fastest on the track, winner of all the races
+  - characterType: 14
+    KEY: Octothorpe
+    Story: Winner of the Bikini show, sassy and classy
+  - characterType: 15
+    KEY: Fiddlesticks
+    Story: Their child has been missing for many years, the husband and wife have
+      searched everywhere, someone please help them
+  - characterType: 16
+    KEY: Sprinkles
+    Story: A hard-working mail carrier. Haven't successfully delivered any mail yet
+      due to her being bad in directions
+  - characterType: 17
+    KEY: Quiddle
+    Story: Biggest fan of the knight since childhood, loves watching cartoons
+  - characterType: 18
+    KEY: Klops
+    Story: Master of the Martial Art. Spent years training but still can't beat anyone
+  - characterType: 19
+    KEY: Kama
+    Story: Passionate about manga and loves cosplay. Owning a huge fortune
+  - characterType: 20
+    KEY: Bozo
+    Story: Cheeky and cunning, often fooling around in pet food stalls
+  - characterType: 21
+    KEY: Fez
+    Story: Likes to participate in extreme sports but always fails because of cowardice
+  - characterType: 22
+    KEY: Jabberwocky
+    Story: The legendary magician who turned himself into a balloon and couldn't
+      change back
+  - characterType: 23
+    KEY: Moue
+    Story: Plant trees on his head to remind everyone to protect the environment
+  - characterType: 24
+    KEY: Toady
+    Story: Lovely, approachable, has 2 different personalities coexisting in one
+      body
+  - characterType: 25
+    KEY: Bogey
+    Story: Three brothers, sharing one pair of jeans because of a financial issue
+  - characterType: 26
+    KEY: Gewgaw
+    Story: The octopus on the head shows his true feelings..
+  - characterType: 27
+    KEY: Fizgig
+    Story: A talkative magical creature whose best friend is Loch Ness and Bigfoot
+  - characterType: 28
+    KEY: Guffaw
+    Story: Twice the mind but fragile the heart
+  - characterType: 29
+    KEY: Scuttlebutt
+    Story: Mysterious three-eyed duck with two eyes that are severely nearsighted
+      and a red eye in the other
+  - characterType: 30
+    KEY: Bugaboo
+    Story: Breast milk is best for baby's health and development
+  - characterType: 31
+    KEY: Pizzazz
+    Story: The result of love between a magical unicorn and a donkey
+  - characterType: 32
+    KEY: Quaff
+    Story: Has a master's degree but chose to be a housewife to take care of the
+      family
+  - characterType: 33
+    KEY: Bafflegab
+    Story: The talented magician finished second in the battle with Jabberwocky,
+      unable to overcome his ability to transform into a balloon.
+  - characterType: 34
+    KEY: Switcheroo
+    Story: No one can sabotage the friendship between the bird and the dog
+  - characterType: 35
+    KEY: Babushka
+    Story: Likes to eat lollipops and cry a lot, be careful when this baby gets angry.
+  - characterType: 36
+    KEY: Topple
+    Story: Programmed to solve tough math problems. Have to eat a lot of batteries
+      to get more energy.
+  - characterType: 37
+    KEY: Manifesto
+    Story: The dictator rules the whole planet - where he's the only citizen
+  - characterType: 38
+    KEY: Jambeau
+    Story: Fast food provides an ultimate power
+  - characterType: 39
+    KEY: Flink
+    Story: A chicken that lays golden eggs, the king's favourite pet
+  - characterType: 40
+    KEY: Quibble
+    Story: Used to be the Monkey King, has to work at the circus now because of a
+      debt default
+  - characterType: 41
+    KEY: Bonanza
+    Story: Always angry and negative. Will demand to talk to your manager
+  - characterType: 42
+    KEY: Quokka
+    Story: Behind the tough mask is a fragile and weak soul
+  - characterType: 43
+    KEY: Donkeyman
+    Story: Dream of becoming a K-Pop idol
+  - characterType: 44
+    KEY: Hoopla
+    Story: "C\xF3 th\xEAm m\u1ED9t c\xE1i \u0111\u1EA7u \u1EDF m\xF5m n\xEAn n\xF3i
+      r\u1EA5t nhi\u1EC1u"
+  - characterType: 45
+    KEY: Fiddledeedee
+    Story: Wants to look nice for her boyfriend but doesn't have any makeup skills
+  - characterType: 46
+    KEY: Teepee
+    Story: Hasn't closed his eyes since he was born. All he wanted was to be able
+      to sleep once
+  - characterType: 47
+    KEY: Snarky
+    Story: A 3-Michelin-star chef, but still unemployed due to his ferocious face
+  - characterType: 48
+    KEY: Lummox
+    Story: Don't judge a book by its cover. He might look silly but very sweet and
+      thoughtful
+  - characterType: 49
+    KEY: Lingo
+    Story: I like to joke around with other people but when I get teased back, I
+      get angry all over
+  - characterType: 50
+    KEY: Gimpy
+    Story: A failed experiment. The result of cross-breeding between different animals
+      and livestock
+  - characterType: 51
+    KEY: Juju
+    Story: Dream of being a pirate but died from melting in the sun
+  - characterType: 52
+    KEY: Noodge
+    Story: Ancient creature, very suspicious, mistakenly swallowed a puffer fish
+  - characterType: 53
+    KEY: Yahoo
+    Story: An introvert, don't want to interact with strangers, just want to stay
+      at home
+  - characterType: 54
+    KEY: Spork
+    Story: Magical creature hybrid between dog and octopus, everyone's best friend
+  - characterType: 55
+    KEY: Meep
+    Story: The fashion icon of the monster world, has the most eye-catching clothes
+      collection
+  - characterType: 56
+    KEY: Blimp
+    Story: This tooth fairy leaves milk, not money
+  - characterType: 57
+    KEY: Fartsdump
+    Story: Someone forgot to flushed
+  - characterType: 58
+    KEY: Quinzee
+    Story: Once dreamt to become a shark but unfortunately can't swim
+  - characterType: 59
+    KEY: Shabang
+    Story: Has huge horns on his head because his partner cheated on him
+  - characterType: 60
+    KEY: Wonky
+    Story: Signed himself up for a racing competition. Finished last.
+  - characterType: 61
+    KEY: Yaffle
+    Story: Looks fierce but actually doesn't like violence, likes to play games on
+      weekends
+  - characterType: 62
+    KEY: Chinchilla
+    Story: Cute but shy, have been through many relationships
+  - characterType: 63
+    KEY: Blob
+    Story: Having strong legs that grow bigger than the upper body, dream of winning
+      the world track and field championship
+  - characterType: 64
+    KEY: Fribble
+    Story: Fierce but stupid, once attacked a pack of wolves thinking they were going
+      to eat me
+  - characterType: 65
+    KEY: Gonzo
+    Story: Likes to be clean, works hard at the gym but doesn't exercise legs
+  - characterType: 66
+    KEY: Hoodwink
+    Story: The wisest person in the monster world with 3 eyes that can see through
+      the world
+  - characterType: 67
+    KEY: Juggernaut
+    Story: Passion for gym and beauty, dream of becoming a world heritage
+  - characterType: 68
+    KEY: Braggart
+    Story: Love peace, hate war, armed with the most advanced nuclear warheads
+  - characterType: 69
+    KEY: Burgoo
+    Story: A cosmic oracle who has the ability to see through the past
+  - characterType: 70
+    KEY: Waddle
+    Story: Once lost to a king crab in a duel, swore to take revenge to become king
+      of the sea
+  - characterType: 71
+    KEY: Foofaraw
+    Story: The captain of a retired pirate crew, joining the circus to make ends
+      meet
+  - characterType: 72
+    KEY: Lollapalooza
+    Story: The thief who stole Alladin's magic lamp but suddenly became the father
+      of Genie
+  - characterType: 73
+    KEY: Poppysmic
+    Story: A handsome face, badass attitude and a 6-pack body is what he doesn't
+      have
+  - characterType: 74
+    KEY: Hurlyburly
+    Story: An independent killer plant who works on his own to get food
+  - characterType: 75
+    KEY: Maelstrom
+    Story: Once a top diva, now drinks blood to maintain youth and beauty
+  - characterType: 76
+    KEY: Gubbins
+    Story: Been cheated on, she decided that she has to be strong so no one can make
+      her cry again
+  - characterType: 77
+    KEY: Foolscap
+    Story: Someone dropped their brain on the street, it's looking for its owner
+  - characterType: 78
+    KEY: Dunderhead
+    Story: Yum...yum... loves to eat wandering spirits, once had a food poisoning
+  - characterType: 79
+    KEY: Razzmatazz
+    Story: 
+  - characterType: 80
+    KEY: Kumquat
+    Story: 
+  - characterType: 81
+    KEY: Chortle
+    Story: 
+  - characterType: 82
+    KEY: Feeble
+    Story: 
+  - characterType: 83
+    KEY: Snirt
+    Story: 
+  - characterType: 84
+    KEY: Mumbojumbo
+    Story: 
+  - characterType: 85
+    KEY: Mugwump
+    Story: 
+  - characterType: 86
+    KEY: Slosh
+    Story: 
+  - characterType: 87
+    KEY: Periwinkle
+    Story: 
+  - characterType: 88
+    KEY: Oomph
+    Story: 
+  - characterType: 89
+    KEY: Wheezy
+    Story: 
+  - characterType: 90
+    KEY: Jawbreaker
+    Story: 
+  - characterType: 91
+    KEY: Didymous
+    Story: 
+  - characterType: 92
+    KEY: Kazoo
+    Story: 
+  - characterType: 93
+    KEY: Yoyo
+    Story: 
+  - characterType: 94
+    KEY: Rumpa
+    Story: 
+  - characterType: 95
+    KEY: Hooey
+    Story: 
+  - characterType: 96
+    KEY: Beanpole
+    Story: 
+  - characterType: 97
+    KEY: Bumfuzzle
+    Story: 
+  - characterType: 98
+    KEY: Jargogle
+    Story: 
+  - characterType: 99
+    KEY: Gobbledygook
+    Story: 
+  - characterType: 100
+    KEY: Gaberlunzie
+    Story: 
+  - characterType: 101
+    KEY: Loggerhead
+    Story: 
+  - characterType: 102
+    KEY: Toupee
+    Story: 
+  - characterType: 103
+    KEY: Wabbit
+    Story: 
+  - characterType: 104
+    KEY: Didgeridoo
+    Story: 
+  - characterType: 105
+    KEY: Snooty
+    Story: 
+  - characterType: 106
+    KEY: Kalita
+    Story: 
+  - characterType: 107
+    KEY: Bungey
+    Story: 
+  - characterType: 108
+    KEY: Caterwaul
+    Story: 
+  - characterType: 109
+    KEY: Spackle
+    Story: 
+  - characterType: 110
+    KEY: Finicky
+    Story: 
+  - characterType: 111
+    KEY: Cankle
+    Story: 
+  - characterType: 112
+    KEY: Glib
+    Story: 
+  - characterType: 113
+    KEY: Yaws
+    Story: 
+  - characterType: 114
+    KEY: Pollywog
+    Story: 
+  - characterType: 115
+    KEY: Gibbo
+    Story: 
+  - characterType: 116
+    KEY: Pogo
+    Story: 
+  - characterType: 117
+    KEY: Dingy
+    Story: 
+  - characterType: 118
+    KEY: Gizmo
+    Story: 
+  - characterType: 119
+    KEY: Giglet
+    Story: 

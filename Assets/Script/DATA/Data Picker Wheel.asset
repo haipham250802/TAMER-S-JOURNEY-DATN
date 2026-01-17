@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2fe117c500e5940bc252d7391db116, type: 3}
+  m_Name: Data Picker Wheel
+  m_EditorClassIdentifier: 
+  wheelPieces:
+  - typeSlotPickerWheel: 0
+    typeRewardsPack: 0
+    RateChance: 20
+    Quantity: 100
+    Icon: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  - typeSlotPickerWheel: 1
+    typeRewardsPack: 0
+    RateChance: 18
+    Quantity: 200
+    Icon: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  - typeSlotPickerWheel: 2
+    typeRewardsPack: 0
+    RateChance: 16
+    Quantity: 300
+    Icon: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  - typeSlotPickerWheel: 3
+    typeRewardsPack: 0
+    RateChance: 14
+    Quantity: 400
+    Icon: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  - typeSlotPickerWheel: 4
+    typeRewardsPack: 0
+    RateChance: 12
+    Quantity: 500
+    Icon: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  - typeSlotPickerWheel: 5
+    typeRewardsPack: 1
+    RateChance: 10
+    Quantity: 2
+    Icon: {fileID: 21300000, guid: 60c27ec19e5b6ac49b0fec795b985288, type: 3}
+  - typeSlotPickerWheel: 6
+    typeRewardsPack: 1
+    RateChance: 7
+    Quantity: 5
+    Icon: {fileID: 21300000, guid: 60c27ec19e5b6ac49b0fec795b985288, type: 3}
+  - typeSlotPickerWheel: 7
+    typeRewardsPack: 2
+    RateChance: 3
+    Quantity: 1
+    Icon: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
+  SP_Coin: {fileID: 21300000, guid: 85516da3265a9714ebf63812039531cc, type: 3}
+  SP_Gem: {fileID: 21300000, guid: 6d513eb0bc2e17a4eb57dae945a6a15d, type: 3}
+  SP_ChestEpic: {fileID: 21300000, guid: 0e3f7c52109827540b14efc30344bd08, type: 3}
